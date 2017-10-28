@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on A byte of learning</title>
+    <link>/tags/general/</link>
+    <description>Recent content in General on A byte of learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Feb 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Facetime Camera Fix</title>
+      <link>/post/facetime-camera-fix/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/facetime-camera-fix/</guid>
+      <description>Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the console
+sudo killall AppleCameraAssistant;sudo killall VDCAssistant which I found here. Then, restart facetime. Hopefully, it will work after executing the commands above.</description>
+    </item>
+    
+  </channel>
+</rss>

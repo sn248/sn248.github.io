@@ -1,0 +1,25 @@
+---
+title: Cut a vector into n-tiles
+author: SN248
+date: '2016-02-08'
+slug: cut-a-vector-into-n-tiles
+categories:
+  - R
+  - tip
+tags:
+  - R
+  - tip
+---
+
+### Useful code to cut vector into ntiles in `R`
+To break a numeric vector `X` into n-tiles (e.g, here into quartiles), use
+
+```r
+y <- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c("L1","L2","L3","L4"))
+```
+
+Somehow, the syntax highligting is not upto mark ... :(
+This code fragment looks much better on [rouge](http://rouge.jneen.net/) even though, jekyll 3 is supposed to be using `rouge` for syntax highlighting, don't know why this is happening or how to resolve this.
+
+Pasting the same code from a `gist`, looks much better ...
+<script src="https://gist.github.com/sn248/527676c605256df3083b.js"></script>

@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A byte of learning</title>
-    <link>/</link>
-    <description>Recent content on A byte of learning</description>
+    <title>Tip on A byte of learning</title>
+    <link>/tags/tip/</link>
+    <description>Recent content in Tip on A byte of learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 28 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tip/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About me</title>
-      <link>/about/</link>
-      <pubDate>Sat, 28 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This blog is a repository of my learning and bits of code. Not much here ..
-Thanks for reading!</description>
-    </item>
     
     <item>
       <title>Cut a vector into n-tiles</title>
@@ -40,27 +30,6 @@ y &amp;lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c
       <guid>/post/facetime-camera-fix/</guid>
       <description>Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the console
 sudo killall AppleCameraAssistant;sudo killall VDCAssistant which I found here. Then, restart facetime. Hopefully, it will work after executing the commands above.</description>
-    </item>
-    
-    <item>
-      <title>First post!</title>
-      <link>/post/first-post/</link>
-      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/post/first-post/</guid>
-      <description>This is my first post, how exciting!
-Thanks to beautiful-jekyll for the theme. Looks good and setup was a breeze due to clear and concise instructions !!
-Have to remember to execute
-bundle exec jekyll serve in the root of the blog directory to make sure that I can generate pages locally to check before I push them. Don’t really understand the syntax of kramdown but … we will see!</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/contact/</guid>
-      <description> First Name  Last Name  E-Mail  City  State AL CA IL      Send   </description>
     </item>
     
   </channel>

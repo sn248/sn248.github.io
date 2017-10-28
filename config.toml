@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "A byte of learning"
 theme = "blackburn"
-author = "Yoshiharu Yamashita"
+author = "SN248"
 copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
 paginate = 10
@@ -14,8 +14,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   # Shown in the home page
-  subtitle = "My online repository of learning"
-  brand = "Blackburn"
+  subtitle = "My online repository of all things interesting"
+  brand = "Main Menu"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js
@@ -55,5 +55,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # facebook = "*"
   # instagram = "*"
   github = "sn248"
-  stackoverflow = ""
+  stackoverflow = "users/4740458/sn248"
   # linkedin = "*"

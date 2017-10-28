@@ -1,0 +1,18 @@
+---
+title: Facetime Camera Fix
+author: SN248
+date: '2016-02-06'
+slug: facetime-camera-fix
+categories:
+  - general
+  - tip
+tags:
+  - general
+  - tip
+---
+
+
+
+<p>Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the <code>console</code></p>
+<pre class="console"><code>sudo killall AppleCameraAssistant;sudo killall VDCAssistant</code></pre>
+<p>which I found <a href="http://osxdaily.com/2013/12/27/fix-there-is-no-connected-camera-error-mac/">here</a>. Then, restart facetime. Hopefully, it will work after executing the commands above.</p>

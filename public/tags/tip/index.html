@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.30.2" />
 
-  <title>Templates &middot; A byte of learning</title>
+  <title>Tip &middot; A byte of learning</title>
 
   
   
@@ -37,7 +37,7 @@
 
   
   
-  <link rel="alternate" type="application/rss+xml" title="A byte of learning" href="/tags/templates/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="A byte of learning" href="/tags/tip/index.xml" />
   
 
   
@@ -104,7 +104,7 @@
 
     
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="/tags/templates/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      <a class="pure-menu-link" href="/tags/tip/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
     </li>
     
 
@@ -209,20 +209,20 @@
 
 
 <div class="header">
-  <h1>Templates</h1>
+  <h1>Tip</h1>
 </div>
 
 <div class="content">
   
     <article>
   <header>
-    <h2><a href="/post/goisforlovers/">(Hu)go Template Primer</a></h2>
+    <h2><a href="/post/cut-a-vector-into-n-tiles/">Cut a vector into n-tiles</a></h2>
 
     <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Apr 2014, 00:00</time>
+    <time>08 Feb 2016, 00:00</time>
   </div>
 
   
@@ -235,15 +235,9 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="/tags/go">go</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="/tags/r">R</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="/tags/golang">golang</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/templates">templates</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/themes">themes</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/development">development</a>
+      <a class="post-taxonomy-tag" href="/tags/tip">tip</a>
     
   </div>
   
@@ -254,14 +248,56 @@
   </header>
 
   <p>
-  Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.
+  Useful code to cut vector into ntiles in R To break a numeric vector X into n-tiles (e.g, here into quartiles), use
+y &lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&quot;L1&quot;,&quot;L2&quot;,&quot;L3&quot;,&quot;L4&quot;)) Somehow, the syntax highligting is not upto mark … :( This code fragment looks much better on rouge even though, jekyll 3 is supposed to be using rouge for syntax highlighting, don’t know why this is happening or how to resolve this.
   </p>
 
   
   <footer>
-    <a href="/post/goisforlovers/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    <a href="/post/cut-a-vector-into-n-tiles/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="/post/facetime-camera-fix/">Facetime Camera Fix</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>06 Feb 2016, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="/tags/tip">tip</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the console
+sudo killall AppleCameraAssistant;sudo killall VDCAssistant which I found here. Then, restart facetime. Hopefully, it will work after executing the commands above.
+  </p>
+
   
 </article>
 

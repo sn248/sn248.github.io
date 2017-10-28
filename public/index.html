@@ -66,7 +66,7 @@
 <div id="menu">
 
   
-  <a class="pure-menu-heading brand" href="/">Blackburn</a>
+  <a class="pure-menu-heading brand" href="/">Main Menu</a>
 
 
   <div class="pure-menu">
@@ -165,6 +165,10 @@
     
 
     
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://stackoverflow.com/users/users/4740458/sn248" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
+    </li>
+    
 
     
 
@@ -206,54 +210,20 @@
 
 <div class="header">
   <h1>A byte of learning</h1>
-  <h2>My online repository of learning</h2>
+  <h2>My online repository of all things interesting</h2>
 </div>
 
 <div class="content">
   
     <article>
   <header>
-    <h2><a href="/post/creating-a-new-theme/">Creating a New Theme</a></h2>
+    <h2><a href="/post/cut-a-vector-into-n-tiles/">Cut a vector into n-tiles</a></h2>
 
     <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>28 Sep 2014, 00:00</time>
-  </div>
-
-  
-
-  
-
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.
-  </p>
-
-  
-  <footer>
-    <a href="/post/creating-a-new-theme/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>23 Jul 2015, 21:13</time>
+    <time>08 Feb 2016, 00:00</time>
   </div>
 
   
@@ -266,11 +236,9 @@ We&rsquo;ll start with creating a new site with a very basic template.
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="/tags/r-markdown">R Markdown</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="/tags/r">R</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="/tags/plot">plot</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/regression">regression</a>
+      <a class="post-taxonomy-tag" href="/tags/tip">tip</a>
     
   </div>
   
@@ -281,14 +249,13 @@ We&rsquo;ll start with creating a new site with a very basic template.
   </header>
 
   <p>
-  R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
+  Useful code to cut vector into ntiles in R To break a numeric vector X into n-tiles (e.g, here into quartiles), use
+y &lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&quot;L1&quot;,&quot;L2&quot;,&quot;L3&quot;,&quot;L4&quot;)) Somehow, the syntax highligting is not upto mark … :( This code fragment looks much better on rouge even though, jekyll 3 is supposed to be using rouge for syntax highlighting, don’t know why this is happening or how to resolve this.
   </p>
 
   
   <footer>
-    <a href="/post/2015-07-23-r-rmarkdown/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    <a href="/post/cut-a-vector-into-n-tiles/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
   
 </article>
@@ -296,13 +263,13 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
     <article>
   <header>
-    <h2><a href="/post/goisforlovers/">(Hu)go Template Primer</a></h2>
+    <h2><a href="/post/facetime-camera-fix/">Facetime Camera Fix</a></h2>
 
     <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Apr 2014, 00:00</time>
+    <time>06 Feb 2016, 00:00</time>
   </div>
 
   
@@ -315,15 +282,9 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="/tags/go">go</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="/tags/general">general</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="/tags/golang">golang</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/templates">templates</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/themes">themes</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/development">development</a>
+      <a class="post-taxonomy-tag" href="/tags/tip">tip</a>
     
   </div>
   
@@ -334,27 +295,23 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   </header>
 
   <p>
-  Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.
+  Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the console
+sudo killall AppleCameraAssistant;sudo killall VDCAssistant which I found here. Then, restart facetime. Hopefully, it will work after executing the commands above.
   </p>
 
-  
-  <footer>
-    <a href="/post/goisforlovers/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
   
 </article>
 
   
     <article>
   <header>
-    <h2><a href="/post/hugoisforlovers/">Getting Started with Hugo</a></h2>
+    <h2><a href="/post/first-post/">First post!</a></h2>
 
     <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Apr 2014, 00:00</time>
+    <time>06 Feb 2016, 00:00</time>
   </div>
 
   
@@ -363,19 +320,6 @@ This document is a brief primer on using go templates.
 
   
   
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="/tags/go">go</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/golang">golang</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/hugo">hugo</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/development">development</a>
-    
-  </div>
   
   
 
@@ -384,17 +328,15 @@ This document is a brief primer on using go templates.
   </header>
 
   <p>
-  Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
+  This is my first post, how exciting!
+Thanks to beautiful-jekyll for the theme. Looks good and setup was a breeze due to clear and concise instructions !!
+Have to remember to execute
+bundle exec jekyll serve in the root of the blog directory to make sure that I can generate pages locally to check before I push them. Don’t really understand the syntax of kramdown but … we will see!
   </p>
 
   
   <footer>
-    <a href="/post/hugoisforlovers/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    <a href="/post/first-post/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
   
 </article>

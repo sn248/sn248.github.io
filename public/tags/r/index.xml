@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on A byte of learning</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on A byte of learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 08 Feb 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cut a vector into n-tiles</title>
+      <link>/post/cut-a-vector-into-n-tiles/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cut-a-vector-into-n-tiles/</guid>
+      <description>Useful code to cut vector into ntiles in R To break a numeric vector X into n-tiles (e.g, here into quartiles), use
+y &amp;lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&amp;quot;L1&amp;quot;,&amp;quot;L2&amp;quot;,&amp;quot;L3&amp;quot;,&amp;quot;L4&amp;quot;)) Somehow, the syntax highligting is not upto mark … :( This code fragment looks much better on rouge even though, jekyll 3 is supposed to be using rouge for syntax highlighting, don’t know why this is happening or how to resolve this.</description>
+    </item>
+    
+  </channel>
+</rss>
