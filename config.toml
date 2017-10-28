@@ -1,4 +1,4 @@
-baseurl = "https://sn248.github.io/"
+baseurl = "/"
 languageCode = "en-us"
 title = "A byte of learning"
 theme = "blackburn"
