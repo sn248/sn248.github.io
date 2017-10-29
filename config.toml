@@ -55,5 +55,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # facebook = "*"
   # instagram = "*"
   github = "sn248"
-  stackoverflow = "users/4740458/sn248"
+  stackoverflow = "/4740458/sn248"
   # linkedin = "*"
