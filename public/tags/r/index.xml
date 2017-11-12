@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 08 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The humble ellipsis or three dots in R functions</title>
+      <link>/post/the-humble-ellipsis-or-three-dots-in-r-functions/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-humble-ellipsis-or-three-dots-in-r-functions/</guid>
+      <description>So, I was writing a function and within that function, I needed to call the mean function.
+Of course, mean can take many arguments (see ?mean) and one of them is na.rm. I didn’t want to have na.rm as a required input in my function. I found that the way to have additional variable number of inputs in an r function is the ellipsis or three-dots operator.
+A very trivial implementation is as follows:</description>
+    </item>
     
     <item>
       <title>Cut a vector into n-tiles</title>

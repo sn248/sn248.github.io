@@ -1,0 +1,23 @@
+---
+title: The humble ellipsis or three dots in R functions
+author: SN248
+date: '2017-11-12'
+slug: the-humble-ellipsis-or-three-dots-in-r-functions
+categories:
+  - R
+  - tip
+tags:
+  - R
+  - tip
+---
+
+
+
+<p>So, I was writing a function and within that function, I needed to call the <code>mean</code> function.</p>
+<p>Of course, <code>mean</code> can take many arguments (see <code>?mean</code>) and one of them is <code>na.rm</code>. I didn’t want to have <code>na.rm</code> as a required input in my function. I found that the way to have additional variable number of inputs in an <code>r</code> function is the ellipsis or three-dots operator.</p>
+<p>A very trivial implementation is as follows:</p>
+<script src="https://gist.github.com/sn248/0c14866e453c0d76ac22b94dc805176c.js"></script>
+<p>Additionally, the optional arguments provided can be accessed via a list, using <code>mylist &lt;- list(...)</code>.</p>
+<p>This post is based on the excellent article here - <a href="http://www.burns-stat.com/the-three-dots-construct-in-r/" class="uri">http://www.burns-stat.com/the-three-dots-construct-in-r/</a></p>
+<p>Just summarizing the main points of the article above, the main reason for using ellipsis is to have variable number of arguments in a function, and to be able to pass those arguments to another function within the first function.</p>
+<p>One more thing to note, there can be only one set of ellipsis in the function arguments, and ellipsis should be at the very end (atleast at the end of named arguments) in the function signature.</p>
