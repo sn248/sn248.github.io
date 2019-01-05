@@ -1,0 +1,18 @@
+---
+title: The humble ellipsis or three dots in R functions
+author: SN248
+date: '2019-01-05'
+slug: the-humble-ellipsis-or-three-dots-in-r-functions
+categories:
+  - General
+tags:
+  - General
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Happy New Year
+
+Just saying Happy New Year and testing if uploading to the site still works. Goal is to have 5 posts in the year 2019 (let's see ...)
