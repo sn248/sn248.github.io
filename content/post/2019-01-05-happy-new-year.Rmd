@@ -1,8 +1,8 @@
 ---
-title: The humble ellipsis or three dots in R functions
+title: Happy New Year
 author: SN248
 date: '2019-01-05'
-slug: the-humble-ellipsis-or-three-dots-in-r-functions
+slug: happy-new-year
 categories:
   - General
 tags:
