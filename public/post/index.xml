@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 12 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Happy New Year</title>
+      <link>/post/happy-new-year/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/happy-new-year/</guid>
+      <description>Happy New Year Just saying Happy New Year and testing if uploading to the site still works. Goal is to have 5 posts in the year 2019 (let’s see …)
+ </description>
+    </item>
     
     <item>
       <title>The humble ellipsis or three dots in R functions</title>
