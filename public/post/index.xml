@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on A byte of learning</title>
@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building the `sundialr` package</title>
+      <link>/post/building-the-sundialr-package/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/building-the-sundialr-package/</guid>
+      <description>  Building the sundialr package This post documents the steps I take to build the sundialr package form the source files of SUNDIALS downloaded from LLNL.
+ </description>
+    </item>
     
     <item>
       <title>Happy New Year</title>
@@ -18,7 +28,7 @@
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/happy-new-year/</guid>
-      <description>Happy New Year Just saying Happy New Year and testing if uploading to the site still works. Goal is to have 5 posts in the year 2019 (let’s see …)
+      <description>  Happy New Year Just saying Happy New Year and testing if uploading to the site still works. Goal is to have 5 posts in the year 2019 (let’s see …)
  </description>
     </item>
     

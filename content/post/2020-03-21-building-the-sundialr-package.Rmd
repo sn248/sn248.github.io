@@ -1,0 +1,15 @@
+---
+title: "Building the `sundialr` package"
+author: "Satyaprakash Nayak"
+date: '2020-03-21'
+description: ''
+slug: building-the-sundialr-package
+tags: []
+categories:
+- R
+- tip
+topics: []
+---
+# Building the `sundialr` package
+
+This post documents the steps I take to build the `sundialr` package form the source files of `SUNDIALS` downloaded from LLNL.

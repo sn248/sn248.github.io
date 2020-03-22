@@ -2,11 +2,11 @@
 title: Happy New Year
 author: SN248
 date: '2019-01-05'
-slug: happy-new-year
 categories:
   - General
 tags:
   - General
+slug: happy-new-year
 ---
 
 ```{r setup, include=FALSE}

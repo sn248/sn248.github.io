@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="generator" content="Hugo 0.67.1" />
 
   <title>Cut a vector into n-tiles &middot; A byte of learning</title>
 
@@ -235,7 +235,10 @@
 
 </div>
 
-  <div id="useful-code-to-cut-vector-into-ntiles-in-r" class="section level3">
+  
+
+
+<div id="useful-code-to-cut-vector-into-ntiles-in-r" class="section level3">
 <h3>Useful code to cut vector into ntiles in <code>R</code></h3>
 <p>To break a numeric vector <code>X</code> into n-tiles (e.g, here into quartiles), use</p>
 <pre class="r"><code>y &lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&quot;L1&quot;,&quot;L2&quot;,&quot;L3&quot;,&quot;L4&quot;))</code></pre>

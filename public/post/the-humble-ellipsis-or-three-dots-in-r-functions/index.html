@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="generator" content="Hugo 0.67.1" />
 
   <title>The humble ellipsis or three dots in R functions &middot; A byte of learning</title>
 
@@ -235,7 +235,10 @@
 
 </div>
 
-  <p>So, I was writing a function and within that function, I needed to call the <code>mean</code> function.</p>
+  
+
+
+<p>So, I was writing a function and within that function, I needed to call the <code>mean</code> function.</p>
 <p>Of course, <code>mean</code> can take many arguments (see <code>?mean</code>) and one of them is <code>na.rm</code>. I didn’t want to have <code>na.rm</code> as a required input in my function. I found that the way to have additional variable number of inputs in an <code>r</code> function is the ellipsis or three-dots operator.</p>
 <p>A very trivial implementation is as follows:</p>
 <script src="https://gist.github.com/sn248/0c14866e453c0d76ac22b94dc805176c.js"></script>
