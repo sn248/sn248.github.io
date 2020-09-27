@@ -11,13 +11,15 @@ tags:
   - tip
 ---
 
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
 <div id="useful-code-to-cut-vector-into-ntiles-in-r" class="section level3">
 <h3>Useful code to cut vector into ntiles in <code>R</code></h3>
 <p>To break a numeric vector <code>X</code> into n-tiles (e.g, here into quartiles), use</p>
 <pre class="r"><code>y &lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&quot;L1&quot;,&quot;L2&quot;,&quot;L3&quot;,&quot;L4&quot;))</code></pre>
-<p>Somehow, the syntax highligting is not upto mark … :( This code fragment looks much better on <a href="http://rouge.jneen.net/">rouge</a> even though, jekyll 3 is supposed to be using <code>rouge</code> for syntax highlighting, don’t know why this is happening or how to resolve this.</p>
+<p>Somehow, the syntax highligting is not upto mark … :(
+This code fragment looks much better on <a href="http://rouge.jneen.net/">rouge</a> even though, jekyll 3 is supposed to be using <code>rouge</code> for syntax highlighting, don’t know why this is happening or how to resolve this.</p>
 Pasting the same code from a <code>gist</code>, looks much better …
 <script src="https://gist.github.com/sn248/527676c605256df3083b.js"></script>
 </div>

@@ -1,59 +1,48 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "A byte of learning"
-theme = "blackburn"
+theme = "hugo-xmin"
 author = "SN248"
-copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
 paginate = 10
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
 
-[indexes]
-  tag = "tags"
-  topic = "topics"
-
-[params]
-  # Shown in the home page
-  subtitle = "My online repository of all things interesting"
-  brand = "Main Menu"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
 
 [menu]
   # Shown in the side menu.
   [[menu.main]]
     name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
     weight = 1
-    identifier = "home"
     url = "/"
   [[menu.main]]
     name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
-    identifier = "post"
     url = "/post/"
   [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
+    name = "Categories"
     weight = 3
-    identifier = "about"
-    url = "/about/"
+    url = "/categories/"
+  [[menu.main]]
+    name = "Tags"
+    weight = 4
+    url = "/tags/"
   [[menu.main]]
     name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 4
+    weight = 5
     url = "/contact/"
+  [[menu.main]]
+    name = "Subscribe"
+    weight = 6
+    url = "/index.xml"
+    
+[params]
+    description = "A blog of SN248"
+    footer = "&copy; SN248 2017 -- 2020 | [Github](https://github.com/sn248) | [LinkedIn](https://www.linkedin.com/in/satyaprakashnayak/) "
 
-[social]
-  # Link your social networking accouns to the side menu
-  # by entering your username or ID.
-  # twitter = "*"
-  # facebook = "*"
-  # instagram = "*"
-  github = "sn248"
-  stackoverflow = "/4740458/sn248"
-  # linkedin = "*"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

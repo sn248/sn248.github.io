@@ -2,11 +2,15 @@
 title: First post!
 author: SN248
 date: '2016-02-06'
-slug: first-post
 categories:
-  - general
-tags: []
+  - Example
+  - Hugo
+tags:
+  - blogdown
+  - Markdown
+  - RStudio
 ---
+**Update:** I have moved to `hugo` and `netlify` ... (2017-10-28), however decided to keep the first post as is for posterity sake..
 
 This is my first post, how exciting!
 
@@ -26,4 +30,3 @@ Let's also test pasting a ```gist```
 
 <script src="https://gist.github.com/sn248/865c023871e4d2809635.js"></script>
 
-**Update:** Obviously, since then I have moved to `hugo` and `netlify` ... (2017-10-28)
