@@ -1,6 +1,7 @@
 ---
-title: Home
+title: Welcome!
 ---
+# Home 
     
 Welcome to my site!
 
@@ -17,10 +18,8 @@ of biological data, literal programming, statistics and gaining an understanding
 pharmacokinetic and pharmcodynamic modeling.
   
 **About this blog** - This blog is made using `R` and `blogdown` package and uses `hugo` as the static site generator. 
-The theme used is `hugo-xmin`. Both `blogdown` and `hugo-xmin` have been developed
-by [Yihui Xie](https://yihui.org/en/) (of `rmarkdown` and `bookdown` fame). I decided to go with this minimal theme as it gives a barebones
-framework to begin with but provides ample opportunities for understanding web development and tweaking/adding 
-features to the site.
+The theme used is `hugo-xmin`. Both `blogdown` and `hugo-xivy` have been developed
+by [Yihui Xie](https://yihui.org/en/) (of `rmarkdown` and `bookdown` fame). I decided to go with this minimalistic theme as it gives a sufficient framework to begin with but provides ample opportunities for understanding web development and tweaking/adding features to the site.
   
 Thanks for reading!
     

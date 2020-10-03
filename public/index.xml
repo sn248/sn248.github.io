@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A byte of learning</title>
+    <title>Welcome! on A byte of learning</title>
     <link>/</link>
-    <description>Recent content on A byte of learning</description>
+    <description>Recent content in Welcome! on A byte of learning</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Home</title>
-      <link>/</link>
+      <title>Building the `sundialr` package</title>
+      <link>/2020/03/21/building-the-sundialr-package/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/21/building-the-sundialr-package/</guid>
+      <description>  Building the sundialr package This post documents the steps I take to build the sundialr package form the source files of SUNDIALS downloaded from LLNL.
+ </description>
+    </item>
+    
+    <item>
+      <title>Happy New Year</title>
+      <link>/2019/01/05/happy-new-year/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/05/happy-new-year/</guid>
+      <description>  Happy New Year Just saying Happy New Year and testing if uploading to the site still works. Goal is to have 5 posts in the year 2019 (let’s see …)
+ </description>
+    </item>
+    
+    <item>
+      <title>The humble ellipsis or three dots in R functions</title>
+      <link>/2017/11/12/the-humble-ellipsis-or-three-dots-in-r-functions/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/12/the-humble-ellipsis-or-three-dots-in-r-functions/</guid>
+      <description>So, I was writing a function and within that function, I needed to call the mean function.
+Of course, mean can take many arguments (see ?mean) and one of them is na.rm. I didn’t want to have na.rm as a required input in my function. I found that the way to have additional variable number of inputs in an r function is the ellipsis or three-dots operator.
+A very trivial implementation is as follows:</description>
+    </item>
+    
+    <item>
+      <title>Cut a vector into n-tiles</title>
+      <link>/2016/02/08/cut-a-vector-into-n-tiles/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/02/08/cut-a-vector-into-n-tiles/</guid>
+      <description>Useful code to cut vector into ntiles in R To break a numeric vector X into n-tiles (e.g, here into quartiles), use
+y &amp;lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&amp;quot;L1&amp;quot;,&amp;quot;L2&amp;quot;,&amp;quot;L3&amp;quot;,&amp;quot;L4&amp;quot;)) Somehow, the syntax highligting is not upto mark … :( This code fragment looks much better on rouge even though, jekyll 3 is supposed to be using rouge for syntax highlighting, don’t know why this is happening or how to resolve this.</description>
+    </item>
+    
+    <item>
+      <title>Facetime Camera Fix</title>
+      <link>/2016/02/06/facetime-camera-fix/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/02/06/facetime-camera-fix/</guid>
+      <description>Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the console
+sudo killall AppleCameraAssistant;sudo killall VDCAssistant which I found here. Then, restart facetime. Hopefully, it will work after executing the commands above.</description>
+    </item>
+    
+    <item>
+      <title>First post!</title>
+      <link>/2016/02/06/first-post/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/02/06/first-post/</guid>
+      <description>Update: I have moved to hugo and netlify … (2017-10-28), however decided to keep the first post as is for posterity sake..
+This is my first post, how exciting!
+Thanks to beautiful-jekyll for the theme. Looks good and setup was a breeze due to clear and concise instructions !!
+Have to remember to execute
+bundle exec jekyll serve in the root of the blog directory to make sure that I can generate pages locally to check before I push them.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/</guid>
-      <description>Welcome to my site!
-This site/blog is a repository of interesting technical things and a showcase of the some learnings with a few bits of code.
-About me - I am a research scientist in the biopharmaceutical industry. I model pre-clinical and clinical data and try to help decision making in drug discovery and development.
-I am interested in scientific computing, modeling of biological data and open-source development in general. As such, I am interested in scripting languages such as R, MATLAB, Julia, Python and a little bit of C/C++.</description>
+      <guid>/contact/</guid>
+      <description>I maybe contacted at
+S N 2 4 8
+@
+c o r n e l l
+.
+e d u</description>
     </item>
     
   </channel>
