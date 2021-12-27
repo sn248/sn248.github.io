@@ -1,4 +1,4 @@
-baseurl = "https://sn248.netlify.app"
+baseurl = "https://sn248.rbind.io/"
 languageCode = "en-us"
 title = "A byte of learning"
 theme = "hugo-ivy"

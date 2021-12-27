@@ -1,1 +1,3 @@
-https://sn248.netlify.app/* https://sn248.rbind.io/:splat 301!
+http://sn248.rbind.io/*    https://sn248.rbind.io/:splat  301!
+https://sn248.netlify.app/*  https://sn248.rbind.io/:splat  301!
+http://sn248.netlify.app/*   https://sn248.rbind.io/:splat  301!
