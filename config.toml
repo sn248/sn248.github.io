@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://sn248.netlify.com"
 languageCode = "en-us"
 title = "A byte of learning"
 theme = "hugo-ivy"
