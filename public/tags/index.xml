@@ -2,64 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A byte of learning</title>
-    <link>/tags/</link>
+    <link>https://sn248.rbind.io/tags/</link>
     <description>Recent content in Tags on A byte of learning</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sn248.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>general</title>
-      <link>/tags/general/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/general/</guid>
+      <title>NONMEM</title>
+      <link>https://sn248.rbind.io/tags/nonmem/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://sn248.rbind.io/tags/nonmem/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>General</title>
+      <link>https://sn248.rbind.io/tags/general/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://sn248.rbind.io/tags/general/</guid>
+      <description></description>
+    </item>
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://sn248.rbind.io/tags/r/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
+      <guid>https://sn248.rbind.io/tags/r/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tip</title>
-      <link>/tags/tip/</link>
+      <title>Tip</title>
+      <link>https://sn248.rbind.io/tags/tip/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tip/</guid>
+      <guid>https://sn248.rbind.io/tags/tip/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blogdown</title>
-      <link>/tags/blogdown/</link>
+      <title>Blogdown</title>
+      <link>https://sn248.rbind.io/tags/blogdown/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/blogdown/</guid>
+      <guid>https://sn248.rbind.io/tags/blogdown/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Markdown</title>
-      <link>/tags/markdown/</link>
+      <link>https://sn248.rbind.io/tags/markdown/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/markdown/</guid>
+      <guid>https://sn248.rbind.io/tags/markdown/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>RStudio</title>
-      <link>/tags/rstudio/</link>
+      <link>https://sn248.rbind.io/tags/rstudio/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstudio/</guid>
+      <guid>https://sn248.rbind.io/tags/rstudio/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

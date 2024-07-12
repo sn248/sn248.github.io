@@ -2,88 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome! on A byte of learning</title>
-    <link>/</link>
+    <link>http://localhost:4321/</link>
     <description>Recent content in Welcome! on A byte of learning</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NONMEM help</title>
+      <link>http://localhost:4321/2024/07/12/nonmem-help/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/2024/07/12/nonmem-help/</guid>
+      <description>NONMEM help NM help</description>
+    </item>
     <item>
       <title>Building the `sundialr` package</title>
-      <link>/2020/03/21/building-the-sundialr-package/</link>
+      <link>http://localhost:4321/2020/03/21/building-the-sundialr-package/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/03/21/building-the-sundialr-package/</guid>
-      <description>  Building the sundialr package This post documents the steps I take to build the sundialr package form the source files of SUNDIALS downloaded from LLNL.
- </description>
+      <guid>http://localhost:4321/2020/03/21/building-the-sundialr-package/</guid>
+      <description>Building the sundialr package This post documents the steps I take to build the sundialr package form the source files of SUNDIALS downloaded from LLNL.</description>
     </item>
-    
     <item>
       <title>Happy New Year</title>
-      <link>/2019/01/05/happy-new-year/</link>
+      <link>http://localhost:4321/2019/01/05/happy-new-year/</link>
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/01/05/happy-new-year/</guid>
-      <description>  Happy New Year Just saying Happy New Year and testing if uploading to the site still works. Goal is to have 5 posts in the year 2019 (let’s see …)
- </description>
+      <guid>http://localhost:4321/2019/01/05/happy-new-year/</guid>
+      <description>Happy New Year Just saying Happy New Year and testing if uploading to the site still works. Goal is to have 5 posts in the year 2019 (let’s see …)</description>
     </item>
-    
     <item>
       <title>The humble ellipsis or three dots in R functions</title>
-      <link>/2017/11/12/the-humble-ellipsis-or-three-dots-in-r-functions/</link>
+      <link>http://localhost:4321/2017/11/12/the-humble-ellipsis-or-three-dots-in-r-functions/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/11/12/the-humble-ellipsis-or-three-dots-in-r-functions/</guid>
-      <description>So, I was writing a function and within that function, I needed to call the mean function.
-Of course, mean can take many arguments (see ?mean) and one of them is na.rm. I didn’t want to have na.rm as a required input in my function. I found that the way to have additional variable number of inputs in an r function is the ellipsis or three-dots operator.
-A very trivial implementation is as follows:</description>
+      <guid>http://localhost:4321/2017/11/12/the-humble-ellipsis-or-three-dots-in-r-functions/</guid>
+      <description>So, I was writing a function and within that function, I needed to call the mean function.&#xA;Of course, mean can take many arguments (see ?mean) and one of them is na.rm. I didn’t want to have na.rm as a required input in my function. I found that the way to have additional variable number of inputs in an r function is the ellipsis or three-dots operator.&#xA;A very trivial implementation is as follows:</description>
     </item>
-    
     <item>
       <title>Cut a vector into n-tiles</title>
-      <link>/2016/02/08/cut-a-vector-into-n-tiles/</link>
+      <link>http://localhost:4321/2016/02/08/cut-a-vector-into-n-tiles/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/2016/02/08/cut-a-vector-into-n-tiles/</guid>
-      <description>Useful code to cut vector into ntiles in R To break a numeric vector X into n-tiles (e.g, here into quartiles), use
-y &amp;lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&amp;quot;L1&amp;quot;,&amp;quot;L2&amp;quot;,&amp;quot;L3&amp;quot;,&amp;quot;L4&amp;quot;)) Somehow, the syntax highligting is not upto mark … :( This code fragment looks much better on rouge even though, jekyll 3 is supposed to be using rouge for syntax highlighting, don’t know why this is happening or how to resolve this.</description>
+      <guid>http://localhost:4321/2016/02/08/cut-a-vector-into-n-tiles/</guid>
+      <description>Useful code to cut vector into ntiles in R To break a numeric vector X into n-tiles (e.g, here into quartiles), use&#xA;y &amp;lt;- cut(X, breaks=c(quantile(X, probs = seq(0, 1, by = 0.25))), labels=c(&amp;quot;L1&amp;quot;,&amp;quot;L2&amp;quot;,&amp;quot;L3&amp;quot;,&amp;quot;L4&amp;quot;)) Somehow, the syntax highligting is not upto mark … :( This code fragment looks much better on rouge even though, jekyll 3 is supposed to be using rouge for syntax highlighting, don’t know why this is happening or how to resolve this.</description>
     </item>
-    
     <item>
       <title>Facetime Camera Fix</title>
-      <link>/2016/02/06/facetime-camera-fix/</link>
+      <link>http://localhost:4321/2016/02/06/facetime-camera-fix/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/2016/02/06/facetime-camera-fix/</guid>
-      <description>Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the console
-sudo killall AppleCameraAssistant;sudo killall VDCAssistant which I found here. Then, restart facetime. Hopefully, it will work after executing the commands above.</description>
+      <guid>http://localhost:4321/2016/02/06/facetime-camera-fix/</guid>
+      <description>Sometimes when I want to use facetime, the camera does not start automatically. Usually happens, when I have used Skype just before using facetime. Here is the fix for it, paste the following commands in the console&#xA;sudo killall AppleCameraAssistant;sudo killall VDCAssistant which I found here. Then, restart facetime. Hopefully, it will work after executing the commands above.</description>
     </item>
-    
     <item>
       <title>First post!</title>
-      <link>/2016/02/06/first-post/</link>
+      <link>http://localhost:4321/2016/02/06/first-post/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/2016/02/06/first-post/</guid>
-      <description>Update: I have moved to hugo and netlify … (2017-10-28), however decided to keep the first post as is for posterity sake..
-This is my first post, how exciting!
-Thanks to beautiful-jekyll for the theme. Looks good and setup was a breeze due to clear and concise instructions !!
-Have to remember to execute
-bundle exec jekyll serve in the root of the blog directory to make sure that I can generate pages locally to check before I push them.</description>
+      <guid>http://localhost:4321/2016/02/06/first-post/</guid>
+      <description>Update: I have moved to hugo and netlify … (2017-10-28), however decided to keep the first post as is for posterity sake..&#xA;This is my first post, how exciting!&#xA;Thanks to beautiful-jekyll for the theme. Looks good and setup was a breeze due to clear and concise instructions !!&#xA;Have to remember to execute&#xA;bundle exec jekyll serve in the root of the blog directory to make sure that I can generate pages locally to check before I push them.</description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>http://localhost:4321/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/1/01/01/</guid>
+      <description>Hyper-NM74help main index This is the main index of Hyper-NM74help&#xD;Search Hyper-NM74help by clicking on the first letter of a search term in the global index or browse the help files by category.&#xA;Global index&#xD;Click on the first character of the keyword for which you want help.&#34;&#xD;$&#xD;*&#xD;-&#xD;.&#xD;1&#xD;2&#xD;3&#xD;4&#xD;6&#xD;8&#xD;:&#xD;@&#xD;_&#xD;a&#xD;b&#xD;c&#xD;d&#xD;e&#xD;f&#xD;g&#xD;h&#xD;i&#xD;k&#xD;l&#xD;m&#xD;n&#xD;o&#xD;p&#xD;q&#xD;r&#xD;s&#xD;t&#xD;u&#xD;v&#xD;w&#xD;x&#xD;y&#xD;z&#xD;Available help categories&#xD;Most help documents are classified according to the following categories.</description>
+    </item>
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>http://localhost:4321/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>I maybe contacted at
-S N 2 4 8
-@
-c o r n e l l
-.
-e d u</description>
+      <guid>http://localhost:4321/contact/</guid>
+      <description>I maybe contacted at&#xA;S N 2 4 8&#xA;@&#xA;c o r n e l l&#xA;.&#xA;e d u</description>
     </item>
-    
   </channel>
 </rss>
